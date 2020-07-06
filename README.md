@@ -46,7 +46,12 @@ docker images
 To run the container and get into pyspark shell directly
 
 ```
-docker run jnshubham/glue_etl_local "gluepyspark"
+docker run -it jnshubham/glue_etl_local "gluepyspark"
+```
+
+To run the container and get into scala shell directly
+```
+docker run -it jnshubham/glue_etl_local "spark-shell"
 ```
 
 To get into the terminal and submit a job run
